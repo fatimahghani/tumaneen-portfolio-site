@@ -257,7 +257,7 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({
                   </h3>
                 </div>
                 <span className="text-[10px] font-mono text-stone-500 uppercase">
-                  {project.brandingType === 'CANDLE BRANDING' ? 'Signature Scented Candle Editions' : '50ml Eau De Parfum Lineup'}
+                  {project.id === 'solis-botanica' ? 'Botanical Apothecary & Ritual Editions' : '100ml Extrait De Parfum Lineup'}
                 </span>
               </div>
 
@@ -312,11 +312,11 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({
                 <div className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
                   <h3 className="text-xs font-mono uppercase tracking-wider text-orange-400">
-                    Menu Architecture · “A Modern Mehfil”
+                    Menu Architecture · “Analog Coffee & Sound”
                   </h3>
                 </div>
                 <span className="text-[10px] font-mono text-stone-500 uppercase">
-                  Curated Café Offerings
+                  Curated Roastery & Listening Bar Offerings
                 </span>
               </div>
 
@@ -367,43 +367,14 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({
                 {project.gallery.map((imgSrc, idx) => {
                   const isSelected = activeImage === imgSrc;
                   const getGalleryLabel = (src: string, index: number) => {
-                    // LUMERA Candle Behance gallery
-                    if (src.includes('lumera_behance_01')) return 'Brand Identity & Candle Vessels';
-                    if (src.includes('lumera_behance_02')) return 'Radiant Sun Symbol & Logotype System';
-                    if (src.includes('lumera_behance_03')) return 'Fragrance Trio: Marigold, Casa Rosa & Rain';
-                    if (src.includes('lumera_behance_04')) return 'Luxury Rigid Presentation Packaging';
-                    if (src.includes('lumera_behance_05')) return 'Arched Label System & Vessel Craft';
-                    if (src.includes('lumera_behance_06')) return 'Match Tins & Striker Sets with Sun Motif';
-                    if (src.includes('lumera_behance_07')) return 'Boutique Shopping Bags & Tissue Paper';
-                    if (src.includes('lumera_behance_08')) return 'Fragrance Atmosphere Story Cards';
-                    if (src.includes('lumera_behance_09')) return 'Botanical Linework & Color Chemistry';
-                    if (src.includes('lumera_behance_10')) return 'Campaign Art Direction & Ritual Lighting';
-
-                    // RIWAQ Fragrance Behance gallery (ID: 256314323)
-                    if (src.includes('riwaq_behance_01')) return 'Dual-Script Brand Architecture ("رواق" / Serif)';
-                    if (src.includes('riwaq_behance_02')) return 'Architectural 50ml Flacons & Arch Boxes';
-                    if (src.includes('riwaq_behance_03')) return 'Woven Desert Geometries & Pattern System';
-                    if (src.includes('riwaq_behance_04')) return 'Laser-Etched Walnut Timber Cap Detail';
-                    if (src.includes('riwaq_behance_05')) return 'Four Scent Atmospheres (Layl, Sahra, Noor, Ajwad)';
-                    if (src.includes('riwaq_behance_06')) return 'Tactile Arch Window Unboxing Architecture';
-                    if (src.includes('riwaq_behance_07')) return 'Boutique Shopping Bag & Letterpress Stationery';
-                    if (src.includes('riwaq_behance_08')) return 'Travertine Sanctuary & Desert Scene Mockup';
-                    if (src.includes('riwaq_behance_09')) return '2X Clearance Grid & 5-Tone Color Architecture';
-                    if (src.includes('riwaq_behance_10')) return 'Editorial Campaign Art Direction & Mood';
-
-                    // ROAST & RHYTHM Café Behance gallery (ID: 254960309)
-                    if (src.includes('roast_behance_01')) return 'Octagonal Folded Takeaway Cups & Brand Identity';
-                    if (src.includes('roast_behance_02')) return 'Drum Kraft Canister & Whole Bean Pouch';
-                    if (src.includes('roast_behance_03')) return 'Treble Clef Ampersand & Wordmark Typography';
-                    if (src.includes('roast_behance_04')) return 'Winking Headphone Coffee Cup Mascot';
-                    if (src.includes('roast_behance_05')) return 'Scalloped Storefront Architecture & Signage';
-                    if (src.includes('roast_behance_06')) return 'Gable Takeaway Carrier Box Suite';
-                    if (src.includes('roast_behance_07')) return '"A Modern Mehfil" Menu & Table Stand System';
-                    if (src.includes('roast_behance_08')) return 'Bilingual Wall Art ("چائے، گفتگو اور سکون")';
-                    if (src.includes('roast_behance_09')) return 'Heavy Canvas Barista Aprons & Uniforms';
-                    if (src.includes('roast_behance_10')) return 'Terracotta Coasters & Stamped Paper Napkins';
-                    if (src.includes('roast_behance_11')) return 'Illustrated Coffee Cups & Desi Rhythm Pattern';
-                    if (src.includes('roast_behance_12')) return 'Ambient Café Lifestyle & Editorial Lighting';
+                    if (src.includes('arabic_kufic')) return 'Bilingual Kufic-Serif Monogram & Grid';
+                    if (src.includes('zahwa_cosmetics')) return 'Botanical Apothecary Vessels & Packaging';
+                    if (src.includes('rivita_luxury')) return 'Brushed Brass Hardware & Tactile Detailing';
+                    if (src.includes('project_vinyl_music')) return 'Gatefold Vinyl Sleeve & Analog Roastery Identity';
+                    if (src.includes('project_quieter_tomorrow')) return 'Nocturnal Atmosphere & Spatial Direction';
+                    if (src.includes('project_better_humans')) return 'Herbarium Specimen & Editorial Typography';
+                    if (src.includes('project_editorial_poster')) return 'Archival Monograph & Print System';
+                    return `Studio Artifact 0${index + 1}`;
                   };
                   const label = getGalleryLabel(imgSrc, idx);
 

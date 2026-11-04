@@ -19,34 +19,34 @@ export const BrandingCover: React.FC<BrandingCoverProps> = ({
   // Project-specific accent colors and visual motifs
   const getThemeConfig = (id: string) => {
     switch (id) {
-      case 'lumera':
+      case 'solis-botanica':
         return {
           glowColor: 'rgba(245, 158, 11, 0.18)',
           accentBorder: 'rgba(245, 158, 11, 0.35)',
           tagColor: 'text-amber-400',
-          arabicSubtitle: 'شمع معطر · إضاءة وذكرى',
-          descriptor: 'Scented Candle Atelier · Vessel Architecture & Unboxing Ritual',
+          arabicSubtitle: 'أعشاب شمسية · طقوس الأرض والطبيعة',
+          descriptor: 'Botanical Apothecary · Stoneware Vessels & Mycelium Unboxing',
           patternType: 'sunburst',
-          badgeText: 'CANDLE BRANDING'
+          badgeText: 'APOTHECARY & CANDLE BRANDING'
         };
-      case 'roast-and-rhythm':
+      case 'kaukab-roastery':
         return {
           glowColor: 'rgba(199, 90, 46, 0.22)',
           accentBorder: 'rgba(199, 90, 46, 0.4)',
           tagColor: 'text-orange-400',
-          arabicSubtitle: 'چائے، گفتگو اور سکون · A Modern Mehfil',
-          descriptor: 'Café Identity · Expressive Packaging & Storefront Culture',
+          arabicSubtitle: 'كوكب للقهوة المختصة · Analog Coffee & Vinyl Sound',
+          descriptor: 'Hi-Fi Coffee Roastery · Matte Steel Canisters & Vinyl Sleeves',
           patternType: 'rhythm',
           badgeText: 'COFFEE SHOP BRANDING'
         };
-      case 'riwaq-fragrances':
+      case 'qamar-al-layl':
       default:
         return {
           glowColor: 'rgba(120, 12, 24, 0.25)',
           accentBorder: 'rgba(180, 83, 9, 0.35)',
           tagColor: 'text-amber-300',
-          arabicSubtitle: 'رواق · دار العطور المعمارية',
-          descriptor: 'Architectural Fragrance House · Dual-Script Identity & Flacons',
+          arabicSubtitle: 'قمر الليل · دار العطور الفلكية',
+          descriptor: 'Celestial Perfumery · Kufic-Serif Identity & Fluted Obsidian Flacons',
           patternType: 'arch',
           badgeText: 'FRAGRANCE BRANDING'
         };

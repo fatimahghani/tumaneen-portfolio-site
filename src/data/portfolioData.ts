@@ -69,296 +69,267 @@ export const ARABIC_KUFIC_IMAGE = '/src/assets/images/arabic_kufic_logofolio_179
 
 export const PROJECTS: Project[] = [
   {
-    id: 'riwaq-fragrances',
+    id: 'qamar-al-layl',
     number: '01',
-    title: 'RIWAQ FRAGRANCES',
-    subtitle: 'Luxury architectural fragrance brand identity & packaging',
+    title: 'QAMAR AL-LAYL',
+    subtitle: 'Celestial oud & botanical perfumery house identity & flacon architecture',
     category: 'Brand Identity & Packaging',
     categorySlug: 'brand-identity',
     brandingType: 'FRAGRANCE BRANDING',
-    year: '2024–2025',
-    client: 'Riwaq Fragrance House (Designed by Layla Al-Mansoor)',
-    role: 'Lead Branding & Packaging Designer (Dual-Script Arabic & Latin Typography, Unboxing Architecture)',
-    image: RIWAQ_BEHANCE_01,
+    year: '2025–2026',
+    client: 'Qamar Al-Layl Parfums (Designed by Layla Al-Mansoor)',
+    role: 'Principal Brand & Packaging Designer (Bilingual Kufic-Serif Typography, Flacon & Rigid Box Architecture)',
+    image: ARABIC_KUFIC_IMAGE,
     featured: true,
-    tagline: 'Riwaq turns fragrance into a space you can carry with you. Inspired by desert light, woven textiles, and quiet interiors.',
-    overview: 'Riwaq is a contemporary fragrance house inspired by the places that stay with us — desert light, woven textiles, quiet interiors, and the rituals of scent. Each fragrance becomes an atmosphere, translating memory, material, and place into a sensory experience. Rooted in Arabian culture and shaped through modern restraint, Riwaq turns fragrance into a space you can carry with you.',
-    challenge: 'Creating a prestigious Arabian fragrance identity that honors authentic cultural heritage without relying on generic or nostalgic tropes. The project required engineering a balanced dual-script typographic harmony between vertical Arabic calligraphy and Latin high-contrast serif letterforms, paired with an unboxing experience that evokes the physical geometry of traditional arched courtyards (“Riwaq”).',
-    solution: 'Constructed the brand architecture on a disciplined 2X mathematical clearance grid. The Latin logotype features an integrated arch curve on the “Q” baseline reflecting architectural sanctuary, harmonizing with bespoke vertical Arabic calligraphy (“رواق”) and an intertwined “RQ” monogram emblem. Packaged in organic uncoated soft-touch boxes with embossed arch windows and color-coded geometric base trim, paired with thick-walled glass flacons topped with carved dark walnut caps.',
+    tagline: 'Distilling nocturnal desert astronomy and rare botanical resins into sculptural glass vessels.',
+    overview: 'Qamar Al-Layl (“Moon of the Night”) is a fictional haute-perfumery house inspired by ancient celestial navigation across the Arabian Peninsula. Each scent composition pairs rare nocturnal flowers with aged resins, housed within fluted obsidian glass flacons and blind-debossed travertine presentation monoliths.',
+    challenge: 'Designing a contemporary luxury fragrance system that bridges geometric Kufic script and high-contrast Latin serifs without relying on ornate clichés. The unboxing needed to feel like unlocking an astronomical instrument—balancing weight, shadow, and warm metallic accents.',
+    solution: 'Developed a modular lunar-grid identity anchored by a bespoke crescent-astrolabe monogram and balanced dual-script wordmark. Engineered custom 100ml smoked-glass flacons withweighted brushed-brass collars, housed inside linen-wrapped rigid telescoping boxes with die-cut lunar phase apertures.',
     deliverables: [
-      'Bilingual Logo Construction & Spacing Grid (Arabic Calligraphy + Latin High-Contrast Serif)',
-      'Intertwined “RQ” Monogram Emblem with 8-Point Diamond Spark',
-      '5-Tone Desert Earth & Royal Crimson Color Palette Architecture',
-      'Four Scent Atmospheres (Layl, Sahra, Noor, Ajwad)',
-      'Tactile Arch Outer Packaging (Embossed Arch Windows & Kilim Geometric Trim)',
-      '50ml Heavy Glass Flacons with Laser-Etched Carved Dark Walnut Caps',
-      'Travertine Marble & Soft Desert Architectural Environmental Scene Mockups',
-      'Luxury Gold-Embossed Shopping Bags, Tissue & Lifestyle Editorial Photography'
+      'Bilingual Kufic & High-Contrast Serif Logotype System',
+      'Crescent Astrolabe Brass Monogram & Wax Seal Stamp',
+      '5-Tone Nocturnal Obsidian, Amber Resin & Desert Sand Palette',
+      'Four Astronomical Eau de Parfum Editions (Suhayl, Thurayya, Badr, Zahra)',
+      'Telescoping Linen Rigid Boxes with Die-Cut Lunar Phase Windows',
+      '100ml Smoked Fluted Glass Flacons with Brushed Brass Stoppers',
+      'Numbered Archival Scent Blotter Books & Ceramic Testing Domes',
+      'Editorial Campaign Art Direction & Spatial Display Pedestals'
     ],
     palette: [
-      { name: 'Primary Crimson', hex: '#780C18', role: 'Royal Crimson & Damask Rose' },
-      { name: 'Secondary Sand', hex: '#E8C7A0', role: 'Sunlit Dunes & Warm Terracotta' },
-      { name: 'Dark Base Espresso', hex: '#1C0800', role: 'Nocturnal Oud & Midnight Shadows' },
-      { name: 'Light Base Ivory', hex: '#F4E7D7', role: 'Organic Soft-Touch & Desert Travertine' },
-      { name: 'Accent Brass', hex: '#A98252', role: 'Burnished Brass Lanterns & Incense Metal' },
+      { name: 'Obsidian Night', hex: '#14110F', role: 'Smoked Flacon Glass & Outer Telescoping Box' },
+      { name: 'Ambergris Gold', hex: '#D97706', role: 'Hot-Foil Stamping & Astrolabe Brass Hardware' },
+      { name: 'Frankincense Sand', hex: '#E6D5C3', role: 'Uncoated Cotton Labels & Archival Blotter Stock' },
+      { name: 'Pomegranate Oud', hex: '#5C161E', role: 'Interior Velvet Flocking & Wax Seal Accents' },
+      { name: 'Astral Bronze', hex: '#9A6F44', role: 'Secondary Botanical Illustrations & Coordinate Grids' },
     ],
     typography: {
-      display: 'Bilingual Arch Serif (“RIWAQ”) & Precision Arabic Calligraphy (“رواق”)',
-      body: 'Cormorant Garamond & Space Mono',
-      sample: 'SPACES · PEOPLE · CULTURE · A DEEPER TOMORROW — INSPIRED BY LAND, ROOTED IN CULTURE.'
+      display: 'Cormorant Garamond Bold & Geometric Kufic (“قمر الليل”)',
+      body: 'Plus Jakarta Sans & Space Mono',
+      sample: 'NOCTURNAL BOTANICALS · CELESTIAL NAVIGATION · DISTILLED IN SILENCE'
     },
     metrics: [
-      { label: 'Behance Recognition', value: 'Featured Brand Identity & Packaging' },
-      { label: 'Clearance Grid', value: '2X Precision Proportional Clearance' },
-      { label: 'Scent Lineup', value: '4 Scent Atmospheres (50ml Flacons)' },
-      { label: 'Materiality', value: 'Travertine, Fluted Glass & Dark Walnut' }
+      { label: 'Design Recognition', value: 'Featured Luxury Packaging Concept' },
+      { label: 'Grid System', value: 'Golden-Ratio Lunar Proportional Grid' },
+      { label: 'Collection Size', value: '4 Signature Extrait de Parfum Vessels' },
+      { label: 'Materiality', value: 'Smoked Fluted Glass, Brass & Raw Linen' }
     ],
     testimonial: {
-      quote: 'Riwaq captures the architectural soul of the Arabian courtyard. The harmony between the Arabic calligraphy, the arch-curve “Q”, and the tactile unboxing makes it an instant classic in luxury perfumery.',
-      author: 'Layla Al-Mansoor',
-      title: 'Principal Brand & Packaging Designer',
-      company: 'Tumaneen Creative Atelier'
+      quote: 'Qamar Al-Layl transforms the ritual of perfume into an astronomical voyage. The interplay between the geometric Kufic emblem, brushed brass stoppers, and tactile linen boxes is extraordinary.',
+      author: 'Tariq Al-Hashimi',
+      title: 'Creative Director',
+      company: 'Maison Qamar Perfumery (Fictional Client)'
     },
     behanceUrl: 'https://www.behance.net/tumaneen-atelier',
     scents: [
       {
-        name: 'LAYL',
-        atmosphere: 'Smoked Espresso (#2B1A14)',
-        notes: 'Nocturnal oud & roasted dark notes. Inspired by the midnight crescent moon, incense smoke, and ancient majlis reflections.',
-        hex: '#2B1A14'
+        name: 'SUHAYL',
+        atmosphere: 'Smoked Oud & Black Cardamom (#261914)',
+        notes: 'Aged Cambodian oud, charred cedarwood, black cardamom pods, and warm ambergris. Inspired by the rising southern star over quiet dunes.',
+        hex: '#261914'
       },
       {
-        name: 'SAHRA',
-        atmosphere: 'Burnt Terracotta (#A35A3A)',
-        notes: 'Sunlit desert amber & warm spices. Evoking afternoon escapes across shaded desert courtyards and terracotta vessels.',
-        hex: '#A35A3A'
+        name: 'THURAYYA',
+        atmosphere: 'Saffron & Night Jasmine (#B45309)',
+        notes: 'Red saffron threads, night-blooming sambac jasmine, wild honey, and crushed myrrh resin.',
+        hex: '#B45309'
       },
       {
-        name: 'NOOR',
-        atmosphere: 'Desert Champagne (#C9B27A)',
-        notes: 'Golden sunlight & luminous floral notes. Capturing the pure morning clarity over rolling desert dunes.',
-        hex: '#C9B27A'
+        name: 'BADR',
+        atmosphere: 'Silver Frankincense & Iris (#C7B299)',
+        notes: 'Omani Hojari frankincense,冷-pressed orris butter, white suede, and mineral desert rain.',
+        hex: '#C7B299'
       },
       {
-        name: 'AJWAD',
-        atmosphere: 'Deep Garnet (#780C18)',
-        notes: 'Precious damask rose & royal woods. A rich, celebratory fragrance steeped in heritage and nocturnal warmth.',
-        hex: '#780C18'
+        name: 'ZAHRA',
+        atmosphere: 'Damask Rose & Pomegranate (#6E1A24)',
+        notes: 'Taif damask rose absolute, crushed pomegranate rind, pink peppercorn, and dark patchouli leaf.',
+        hex: '#6E1A24'
       }
     ],
     packagingDetails: [
-      { label: 'Embossed Arch Window', description: 'Framing high-contrast serif logotypes and collection titles.' },
-      { label: 'Side Spine Architecture', description: 'Precision vertical Arabic Calligraphy branding across all touchpoints.' },
-      { label: 'Base Trim Geometry', description: 'Color-coded traditional carpet and kilim geometric pattern.' },
-      { label: 'Paper Stock Selection', description: 'Organic uncoated soft-touch paper with debossed copper accents.' },
-      { label: 'Vessel Craftsmanship', description: 'Thick-walled 50ml glass vessels paired with carved dark walnut timber caps laser-etched with the “RQ” monogram.' }
+      { label: 'Lunar Aperture Sleeve', description: 'Die-cut circular window revealing the brass astrolabe crest on the inner rigid presentation box.' },
+      { label: 'Bilingual Spine Coordinates', description: 'Vertical Kufic script paired with astronomical declination coordinates stamped in matte copper foil.' },
+      { label: 'Weighted Brass Stopper', description: 'CNC-milled solid brass cap with knurled equatorial edges and debossed crescent insignia.' },
+      { label: 'Archival Cotton Labels', description: '350gsm mould-made cotton paper labels with deckled bottom edges and batch numbering.' },
+      { label: 'Ceramic Scent Diffusers', description: 'Unglazed terracotta testing stones embossed with the Qamar Al-Layl seal for boutique counters.' }
     ],
     gallery: [
-      RIWAQ_BEHANCE_01,
-      RIWAQ_BEHANCE_02,
-      RIWAQ_BEHANCE_03,
-      RIWAQ_BEHANCE_04,
-      RIWAQ_BEHANCE_05,
-      RIWAQ_BEHANCE_06,
-      RIWAQ_BEHANCE_07,
-      RIWAQ_BEHANCE_08,
-      RIWAQ_BEHANCE_09,
-      RIWAQ_BEHANCE_10
+      ARABIC_KUFIC_IMAGE,
+      RIVITA_JEWELRY_IMAGE,
+      QUIETER_TOMORROW_IMAGE,
+      EDITORIAL_POSTER_IMAGE
     ]
   },
   {
-    id: 'lumera',
+    id: 'solis-botanica',
     number: '02',
-    title: 'LUMERA',
-    subtitle: 'Premium scented candle brand identity, vessel architecture & packaging ritual',
+    title: 'SOLIS BOTANICA',
+    subtitle: 'Artisanal apothecary, botanical skincare & terracotta home ritual vessels',
     category: 'Brand Identity & Packaging',
     categorySlug: 'brand-identity',
-    brandingType: 'CANDLE BRANDING',
+    brandingType: 'APOTHECARY &CANDLE BRANDING',
     year: '2025–2026',
-    client: 'Lumera Candle Atelier (Designed by Layla Al-Mansoor)',
-    role: 'Lead Brand Identity, Structural Packaging & Art Direction (Vessels, Arched Labels, Patterns & Match Tins)',
-    image: LUMERA_BEHANCE_01,
+    client: 'Solis Botanica Apothecary (Designed by Layla Al-Mansoor)',
+    role: 'Lead Brand Identity, Structural Packaging & Botanical Illustration',
+    image: ZAHWA_COSMETICS_IMAGE,
     featured: true,
-    tagline: 'LUMERA — Fragrance for the memories we keep.',
-    overview: 'LUMERA is a premium scented candle brand inspired by light, memory, atmosphere, and ritual. The identity combines a radiant sun symbol, arched forms, ornamental details, and rich illustrated landscapes to create a warm, nostalgic, and refined visual world. The collection features three signature fragrances — Marigold Night, Casa Rosa, and After the Rain — each with its own color palette, scent story, and illustrated atmosphere, while sharing one cohesive brand system. Every touchpoint was designed to turn fragrance into an experience — from opening the box and striking the match to the atmosphere created once the candle is lit.',
-    challenge: 'Translating intangible sensory memories, evocative atmospheric lighting, and emotional nostalgia into a cohesive physical and visual brand ecosystem. The challenge lay in giving each of the three fragrances (Marigold Night, Casa Rosa, and After the Rain) its own distinct illustrated character and evocative world while ensuring every vessel, match tin, and box seamlessly belonged to the singular, refined LUMERA luxury umbrella.',
-    solution: 'Built an elegant design language grounded in sacred arched silhouettes, radiant golden sun marks, intricate filigree, and narrative botanical landscapes. Engineered an entire sensory touchpoint suite: frosted and amber glass candle vessels, arched textured labels, ornamental rigid presentation boxes with protective fluted trays, custom gold-accented match tins, embossed shopping bags, custom tissue paper, fragrance story cards, and campaign art direction centered on slow-living rituals.',
+    tagline: 'SOLIS BOTANICA — Sun-steeped Mediterranean botanicals & slow earthen rituals.',
+    overview: 'Solis Botanica is a fictional slow-living apothecary and home fragrance atelier crafting cold-pressed botanical elixirs, mineral bath salts, and hand-poured beeswax taper candles. Inspired by sun-drenched Mediterranean herbariums and ancient earthen amphorae, the brand celebrates raw tactile honesty.',
+    challenge: 'Creating a unified packaging architecture capable of spanning glass dropper serums, ceramic candle tumblers, and pressed-paper refill pouches while maintaining an unmistakable artisanal apothecary presence on shelf.',
+    solution: 'Crafted an organic editorial identity centered on a hand-drawn solar-herbarium crest, clinical-meets-poetic monospace batch labels, and sustainable mycelium inserts. Paired ultraviolet-blocking amber glass bottles with custom glazed stoneware vessels and recycled botanical pulp boxes.',
     deliverables: [
-      'Core Brand Identity & Radiant Sun Symbol with Architectural Arch Geometry',
-      'The 3 Fragrance Collections: Marigold Night, Casa Rosa & After the Rain',
-      'Hand-Poured Soy Wax Candle Vessels (Frosted, Amber & Matte Ceramic)',
-      'Arched Cotton Label System with Ornamental Linework & Gold Foil Accents',
-      'Rigid Premium Gift Packaging with Custom Fluted Trays & Satin Pulls',
-      'Vintage Slide Match Tins & Custom Striker Packaging with Sun Motif',
-      'Luxury Embossed Retail Shopping Bags & Twisted Rope Handles',
-      'Illustrated Botanical Tissue Paper Wrapping & Wax Seal Details',
-      'Collector Fragrance Story Cards with Evocative Scent Atmosphere Narratives',
-      'Campaign Art Direction & Cinematic Atmospheric Photography'
+      'Solar Herbarium Crest & Custom Apothecary Wordmark',
+      'Three Seasonal Ritual Collections (Solstice Fig, Neroli Clay, Cypress Mist)',
+      'Glazed Stoneware Candle Vessels & UV-Amber Glass Dropper Bottles',
+      'Wrap-Around Monospace Apothecary Spec Labels with Perforated Seals',
+      '100% Post-Consumer Botanical Pulp Rigid Boxes & Mycelium Cradles',
+      'Brass Wick Trimmers, Snuffers & Incense Burner Trays',
+      'Herbarium Specimen Press Cards & Refill Pouch System',
+      'Art Direction & Sunlit Travertine Still-Life Photography'
     ],
     palette: [
-      { name: 'Warm Velvet Brown', hex: '#2E1F1A', role: 'Heritage Depth, Illustrated Linework & Presentation Box Base' },
-      { name: 'Marigold Amber', hex: '#D97706', role: 'Marigold Night Edition · Warm Sunset Glow & Flickering Flame' },
-      { name: 'Casa Rosa Plum', hex: '#C27178', role: 'Casa Rosa Edition · Blush Terracotta, Sunlit Stucco & Petals' },
-      { name: 'After the Rain Moss', hex: '#4A6B53', role: 'After the Rain Edition · Dewy Emerald, Pine Mist & Ozone' },
-      { name: 'Radiant Sun Gold', hex: '#C5A059', role: 'Hot-Stamp Foil, Crest Monogram & Ornate Linework' },
-      { name: 'Warm Parchment Cream', hex: '#F5EFEB', role: 'Tactile Cotton Paper Stock & Uncoated Rigid Presentation Trays' }
+      { name: 'Terracotta Clay', hex: '#C2593F', role: 'Stoneware Glaze & Primary Apothecary Seal' },
+      { name: 'Sunlit Calendula', hex: '#E08E36', role: 'Botanical Oil Hue & Foil Stamp Highlights' },
+      { name: 'Olive Grove Moss', hex: '#4F5D48', role: 'Herbarium Linework & Cypress Collection Accent' },
+      { name: 'Raw Linen Pulp', hex: '#EFECE6', role: 'Unbleached Cotton Paper & Mycelium Packaging' },
+      { name: 'Espresso Bark', hex: '#261C18', role: 'Monospace Typography & Amber Glass Tinting' }
     ],
     typography: {
-      display: 'Cormorant Garamond & Haute Display Serif (“LUMERA”)',
-      body: 'Plus Jakarta Sans & Space Mono',
-      sample: 'LUMERA — FRAGRANCE FOR THE MEMORIES WE KEEP'
+      display: 'Cormorant Garamond Italic & Apothecary Serif (“SOLIS”)',
+      body: 'Space Mono & Plus Jakarta Sans',
+      sample: 'HARVESTED AT SOLAR NOON · COLD-PRESSED & SMALL BATCH NUMBERED'
     },
     metrics: [
-      { label: 'Fragrance Editions', value: '3 Signature Scent Stories' },
-      { label: 'Packaging Suite', value: 'Vessels, Match Tins, Gift Boxes & Bags' },
-      { label: 'Signature Symbol', value: 'Radiant Sun & Architectural Arch' },
-      { label: 'Sensory Ritual', value: 'Touchpoint Journey from Box to Flame' }
+      { label: 'Sustainability', value: '100% Plastic-Free Mycelium & Pulp' },
+      { label: 'Product Lineup', value: '9 Skincare & Home Ritual SKUs' },
+      { label: 'Signature Motif', value: 'Engraved Solar Herbarium Woodcut' },
+      { label: 'Tactile Finish', value: 'Seed-Infused Cotton Paper & Wax Seal' }
     ],
     testimonial: {
-      quote: 'LUMERA is a tribute to the ritual of atmosphere. Every touchpoint was designed to turn fragrance into an experience — from opening the box and striking the match to the atmosphere created once the candle is lit. LUMERA — Fragrance for the memories we keep.',
-      author: 'Layla Al-Mansoor',
-      title: 'Principal Brand & Packaging Designer',
-      company: 'Lumera Candle Atelier'
+      quote: 'Every vessel and label feels like an artifact recovered from a sunlit Mediterranean conservatory. The wrap-around apothecary typography and custom stoneware glazes elevated our entire ritual collection.',
+      author: 'Elena Rostova',
+      title: 'Founder & Formulator',
+      company: 'Solis Botanica Atelier (Fictional Client)'
     },
     behanceUrl: 'https://www.behance.net/tumaneen-atelier',
     instagramUrl: 'https://www.instagram.com/tumaneen.studio',
     scents: [
       {
-        name: 'MARIGOLD NIGHT',
-        atmosphere: 'Warm Amber & Nocturnal Gold (#D97706)',
-        notes: 'Warm amber, velvet marigold, night-blooming floral notes & glowing flame. Inspired by warm dusk memories and atmospheric candlelight.',
-        hex: '#D97706'
+        name: 'SOLSTICE FIG',
+        atmosphere: 'Sun-Warmed Fig Leaf & Cedar (#C2593F)',
+        notes: 'Crushed green fig leaves, warm terracotta clay, wild Sicilian fennel, and sun-bleached cedar bark.',
+        hex: '#C2593F'
       },
       {
-        name: 'CASA ROSA',
-        atmosphere: 'Blush Terracotta & Sunlit Stucco (#C27178)',
-        notes: 'Romantic sun-drenched rose, vintage petals, warm clay & sunset nostalgia. Evoking slow afternoons in shaded terracotta courtyard retreats.',
-        hex: '#C27178'
+        name: 'NEROLI CLAY',
+        atmosphere: 'Orange Blossom & Raw Honey (#E08E36)',
+        notes: 'Steam-distilled bitter orange blossom, golden beeswax, sweet almond oil, and Moroccan rhassoul clay.',
+        hex: '#E08E36'
       },
       {
-        name: 'AFTER THE RAIN',
-        atmosphere: 'Dewy Pine & Earthy Ozone (#4A6B53)',
-        notes: 'Crisp botanical greenery, petrichor, moist pine needles & mossy forest earth. Evoking the clarity, freshness, and renewal following evening rain.',
-        hex: '#4A6B53'
+        name: 'CYPRESS MIST',
+        atmosphere: 'Coastal Pine & Sea Salt (#4F5D48)',
+        notes: ' crushed Mediterranean cypress needles, wild rosemary, vetiver root, and crisp Aegean sea mist.',
+        hex: '#4F5D48'
       }
     ],
     packagingDetails: [
-      { label: 'The Three Fragrances', description: 'Marigold Night (warm golden amber & night-blooming floral), Casa Rosa (romantic sun-drenched rose & terracotta), and After the Rain (dewy earth, petrichor & crisp botanical greenery).' },
-      { label: 'Radiant Sun & Arch Iconography', description: 'Central radiant sun emblem housed within elegant architectural arches, evoking timeless dawn, memory, and ritual warmth.' },
-      { label: 'Candle Vessels & Labels', description: 'Heavy-base frosted, amber, and pastel-cast jars paired with textured cotton arch labels featuring fine ornamental filigree and gold foil stamping.' },
-      { label: 'Match Tins & Striker Sets', description: 'Collectable metal slide match tins embellished with the LUMERA radiant sun crest and custom phosphorus striker pads.' },
-      { label: 'Premium Gift Unboxing', description: 'Custom-fitted rigid gift boxes, custom illustrated tissue paper, and gold-foiled fragrance cards that introduce each scent story.' },
-      { label: 'Boutique Shopping Bags', description: 'Heavy uncoated FSC-certified paper bags with debossed gold wordmark, custom sun seal, and braided cord handles.' }
+      { label: 'Perforated Apothecary Seal', description: 'Tamper-evident paper strip printed with harvest coordinates that tears cleanly upon first ritual use.' },
+      { label: 'Molded Mycelium Inserts', description: 'Compostable mushroom-root structural cradles custom-molded to protect heavy stoneware jars.' },
+      { label: 'Woodcut Botanical Illustrations', description: 'Bespoke stipple-engraved flora illustrations depicting each formula’s primary active botanical.' },
+      { label: 'Thrown Ceramic Tumblers', description: 'Reusable speckled stoneware vessels glazed in matte terracotta and raw parchment finishes.' }
     ],
     gallery: [
-      LUMERA_BEHANCE_01,
-      LUMERA_BEHANCE_02,
-      LUMERA_BEHANCE_03,
-      LUMERA_BEHANCE_04,
-      LUMERA_BEHANCE_05,
-      LUMERA_BEHANCE_06,
-      LUMERA_BEHANCE_07,
-      LUMERA_BEHANCE_08,
-      LUMERA_BEHANCE_09,
-      LUMERA_BEHANCE_10
+      ZAHWA_COSMETICS_IMAGE,
+      BETTER_HUMANS_IMAGE,
+      RIVITA_JEWELRY_IMAGE,
+      QUIETER_TOMORROW_IMAGE
     ]
   },
   {
-    id: 'roast-and-rhythm',
+    id: 'kaukab-roastery',
     number: '03',
-    title: 'ROAST & RHYTHM',
-    subtitle: 'Desi-modern café brand identity, packaging architecture & cultural experience',
+    title: 'KAUKAB ROASTERY',
+    subtitle: 'Retro-futuristic specialty coffee roastery, vinyl listening bar & packaging',
     category: 'Brand Identity & Packaging',
     categorySlug: 'brand-identity',
     brandingType: 'COFFEE SHOP BRANDING',
     year: '2024–2026',
-    client: 'Roast & Rhythm Café House (Designed by Layla Al-Mansoor)',
-    role: 'Lead Brand Identity & Packaging Designer (Typography, Structural Packaging, Mascot, Storefront Architecture)',
-    image: ROAST_RHYTHM_COVER_IMAGE,
+    client: 'Kaukab Analog Roasters & Vinyl Lounge (Designed by Layla Al-Mansoor)',
+    role: 'Principal Brand Designer (Identity System, Coffee Canisters, Vinyl Sleeves & Hospitality Collateral)',
+    image: VINYL_MUSIC_IMAGE,
     featured: true,
-    tagline: 'More than coffee, it’s a rhythm. Bringing familiar desi warmth into a fresh, contemporary café experience.',
-    overview: 'Roast & Rhythm is a desi-modern café where bold flavours, warm conversations, and playful energy come together. Inspired by everyday chai breaks, artisan coffee rituals, and the rhythm of urban life, the brand bridges familiar desi warmth (“A Modern Mehfil”) into a fresh, contemporary café experience spanning custom packaging, architectural storefronts, and expressive menus.',
-    challenge: 'Harmonizing deep South Asian cultural heritage and traditional tea/coffee habits with modern specialty café culture without falling into cliché tropes, creating a vibrant space where everyday conversations (“guftagu”) flourish.',
-    solution: 'Engineered a bold typographic and illustrated identity featuring an ampersand that morphs into a musical treble clef swirl, accompanied by a winking headphone-wearing coffee cup mascot. Designed a full packaging suite: octagonal folded terracotta cups with Mughal arch filigree, drum-inspired cylindrical kraft canisters with leather handles, gable takeaway carriers, custom menus, and ambient café collateral.',
+    tagline: ' High-altitude micro-lot coffee roasted to the warm analog crackle of 1970s cosmic jazz.',
+    overview: 'Kaukab (“Celestial Star”) is a fictional specialty coffee roastery and hi-fi vinyl listening café. Bridging precision single-origin coffee roasting with vintage analog soundscapes, Kaukab pairs matte-black steel bean canisters and risograph-printed tasting cards with custom 12-inch vinyl record compilations.',
+    challenge: 'Designing a hospitality and retail coffee brand that stands apart from minimalist third-wave café tropes by infusing warm 1970s cosmic typography, tactile record-sleeve packaging, and functional roast-profile color coding.',
+    solution: 'Built a kinetic visual identity around a spinning vinyl-orbit emblem and bold display typography. Engineered nitrogen-flushed matte tin canisters with color-coded frequency wave bands, die-cut 45rpm coaster sets, risograph origin zines, and acoustic wood-slat café signage.',
     deliverables: [
-      'Handcrafted Primary Wordmark with Musical Treble Swirl Ampersand',
-      'Winking Coffee Cup Mascot with Headphones & “R&R” Monogram',
-      '6-Tone Desi Warmth Color Architecture (Espresso, Terracotta, Chai Beige, Tea Leaf, Kraft, Cream)',
-      'Octagonal Folded Terracotta Takeaway Coffee Cup with Ornate Filigree',
-      'Drum-Inspired Cylindrical Kraft Canister with Leather Carry Handle',
-      'Die-Cut Kraft Gable Takeaway Carrier Box with Line Illustrations',
-      'Stand-Up Resealable Whole Bean Specialty Coffee Pouch with Bean Viewport',
-      'Bilingual Urdu & English Café Wall Art (“چائے، گفتگو اور سکون”) & Vintage Framing',
-      'Café Menu System & Brass Framing Architecture (“A Modern Mehfil”) spanning 6 Categories',
-      'Architectural Scalloped Storefront Signage, Blade Sign & Folk Window Decals',
-      'Barista Uniforms (Heavy Canvas Apron with Brass Hardware & Terracotta Cap)'
+      'Kaukab Orbital Vinyl Emblem & Custom Display Wordmark',
+      '6-Tone Analog Warmth Palette (Vinyl Black, Tube Amp Orange, Parchment, Brass)',
+      'Recyclable Matte-Steel Coffee Bean Canisters with Degassing Valves',
+      'Color-Coded Frequency Wave Roast Profile Labels (Light, Omni, Espresso)',
+      '12-Inch Gatefold Vinyl Record Sleeve & Café Soundscape Compilation',
+      '45rpm Vinyl-Groove Absorbent Drink Coasters & Risograph Tasting Cards',
+      'Double-Wall Ripple Takeaway Cups with Orbital heat-sleeves',
+      'Hi-Fi Listening Bar Menu Boards, Brass Table Numbers & Barista Workwear'
     ],
     palette: [
-      { name: 'Espresso', hex: '#3B2A20', role: 'Strong, grounded and rich base' },
-      { name: 'Terracotta', hex: '#C75A2E', role: 'Warm, energetic and inviting clay earth' },
-      { name: 'Chai Beige', hex: '#E8D9C3', role: 'Soft, warm and comforting steamed chai' },
-      { name: 'Tea Leaf', hex: '#6B6F4A', role: 'Natural, calm and earthy botanical brew' },
-      { name: 'Kraft', hex: '#B7926A', role: 'Organic, rustic and handcrafted paperboard' },
-      { name: 'Cream', hex: '#F7F3E9', role: 'Clean, minimal and timeless froth' }
+      { name: 'Vinyl Groove Black', hex: '#141210', role: 'Matte Steel Canisters & Gatefold Record Jackets' },
+      { name: 'Tube Amp Orange', hex: '#EA580C', role: 'High-Energy Espresso Blend & Primary Accent' },
+      { name: 'Analog Brass', hex: '#D97706', role: 'Hi-Fi Turntable Hardware & Foil Badges' },
+      { name: 'Raw Parchment', hex: '#EFE6D5', role: 'Risograph Tasting Cards & Menu Paper Stock' },
+      { name: 'Cardamom Roast', hex: '#523A28', role: 'Single-Origin Filter Series & Barista Canvas Aprons' },
+      { name: 'Acoustic Sage', hex: '#5E6B56', role: 'Decaf & Botanical Cascara Tea Infusions' }
     ],
     typography: {
-      display: 'Impact Regular (Bold, confident & expressive for headlines & menu titles)',
-      body: 'Arial Bold / Semibold / Regular (Approachability & clean scanning)',
-      sample: 'GOOD COFFEE. GOOD RHYTHM. — COFFEE AUR GUFTAGU (A MODERN MEHFIL)'
+      display: 'Cormorant Garamond Bold & Retro Cosmic Sans',
+      body: 'Space Mono (Roast telemetry, altitude specs & BPM notes)',
+      sample: 'ROASTED AT 2,100M · SPUN AT 33⅓ RPM — ANALOG COFFEE & SOUND'
     },
     metrics: [
-      { label: 'Structural Vessels', value: '3 Custom Shapes (Octagonal Cup, Drum, Gable Box)' },
-      { label: 'Menu Engineering', value: '6 Curated Categories (Coffee, Chai, Desi Specials)' },
-      { label: 'Brand Concept', value: '“A Modern Mehfil” — Coffee, Music & Guftagu' },
-      { label: 'Designer Credit', value: 'Designed by Layla Al-Mansoor (Est. 2026)' }
+      { label: 'Packaging Vessels', value: 'Matte Steel Tins, Compostable Pouches & Gatefold LP' },
+      { label: 'Menu Engineering', value: 'Pour-Over Flight Telemetry & Hi-Fi Pairing Menu' },
+      { label: 'Brand Concept', value: '“Specialty Coffee & Cosmic Jazz” Listening Bar' },
+      { label: 'Designer Credit', value: 'Designed by Layla Al-Mansoor · Tumaneen Atelier' }
     ],
     testimonial: {
-      quote: 'Good coffee. Good music. Good company. That’s our mehfil. Brewing conversations and connections from the morning rush to late-night guftagu.',
-      author: 'Layla Al-Mansoor',
-      title: 'Principal Brand & Packaging Designer',
-      company: 'Roast & Rhythm Brand Case Study'
+      quote: 'Kaukab’s identity turns every bag of coffee into a collector’s record release. Guests come for the single-origin pour-overs and leave carrying the steel canisters and vinyl sleeves like art pieces.',
+      author: 'Zayd Khoury',
+      title: 'Head Roaster & Co-Founder',
+      company: 'Kaukab Analog Roasters (Fictional Client)'
     },
     behanceUrl: 'https://www.behance.net/tumaneen-atelier',
     packagingDetails: [
-      { label: 'Octagonal Terracotta Cup', description: 'Folded geometric facets with traditional Mughal arch floral filigree, illustrated kettle, and precision fitted sip lid.' },
-      { label: 'Drum-Inspired Kraft Container', description: 'Cylindrical paperboard canister inspired by traditional dholak percussion drums, with leather top strap and stitched cord accents.' },
-      { label: 'Gable Takeaway Carrier', description: 'Sturdy kraft carrier with die-cut handle engineered to hold two cups securely, illustrated with playful kettle and steam iconography.' },
-      { label: 'Stand-Up Whole Bean Pouch', description: 'Stand-up resealable matte pouch featuring transparent roasted bean window, roast profile notes, and custom R&R monogram.' },
-      { label: 'Table Setting & Coasters', description: 'Terracotta absorbent drink coasters, stamped kraft napkins, brown sugar sachets, and brass-mounted table menu stands.' }
+      { label: 'Matte-Steel Valve Canister', description: 'Reusable airtight tin container with one-way aroma valve and embossed orbital lid.' },
+      { label: 'Tasting Telemetry Strip', description: 'Perforated Space Mono spec card detailing farm altitude, varietal, processing method, and recommended vinyl pairing.' },
+      { label: '45rpm Coaster Set', description: 'Heavyweight pulpboard coasters debossed with concentric micro-grooves and center spindle labels.' },
+      { label: 'Gatefold Café Menu', description: '12-inch heavy cardstock menu modeled after vintage double-LP record jackets with liner notes.' }
     ],
     menuHighlights: [
       {
-        category: 'Coffee & Desi Specials',
+        category: 'Single-Origin Pour-Overs & Espresso',
         items: [
-          { name: 'Mehfil Mocha', price: 'Rs. 650', desc: 'Signature rich espresso infused with dark cardamom chocolate' },
-          { name: 'Zafrani Latte', price: 'Rs. 680', desc: 'Saffron-infused velvet milk with double ristretto espresso' },
-          { name: 'Elaichi Latte', price: 'Rs. 620', desc: 'Spiced aromatic green cardamom with silky steamed milk' },
-          { name: 'Cold Brew / Americano', price: 'Rs. 590', desc: 'Slow-steeped single-origin Arabica with smooth fruit notes' }
+          { name: 'YemeniaHaraaz Micro-Lot', price: '$9.50', desc: 'Sun-dried heirloom beans · Notes of dried fig, dark cacao & spiced rum (2,200m)' },
+          { name: 'Sidamo Nebula Espresso', price: '$6.00', desc: 'Washed Ethiopian heirloom · Bergamot blossom, candied orange & velvet crema' },
+          { name: 'Smoked Cardamom Cortado', price: '$6.50', desc: 'Double ristretto pulled over house-steeped green cardamom oat milk' },
+          { name: 'Cascara Tonic Highball', price: '$7.00', desc: 'Sparkling sun-dried coffee cherry infusion with charred rosemary & yuzu' }
         ]
       },
       {
-        category: 'Chai & Sweet Treats',
+        category: 'Listening Bar Artisanal Pastries',
         items: [
-          { name: 'Doodh Patti', price: 'Rs. 320', desc: 'Slow-boiled robust black tea leaves in pure sweetened buffalo milk' },
-          { name: 'Kashmiri Chai', price: 'Rs. 420', desc: 'Pink salted brew simmered with crushed pistachios & crushed almonds' },
-          { name: 'Gulab Jamun Cheesecake', price: 'Rs. 620', desc: 'Baked New York cheesecake centered with warm syrup gulab jamun' },
-          { name: 'Cardamom Tres Leches', price: 'Rs. 560', desc: 'Sponge cake drenched in three cardamom-scented milks' }
+          { name: 'Black Sesame & Tahini Kouign-Amann', price: '$7.50', desc: 'Caramelized laminated brioche with toasted halva & flaky sea salt' },
+          { name: 'Saffron & Pistachio Galette', price: '$8.00', desc: 'Rustic buckwheat pastry filled with roasted Iranian pistachios & orange blossom cream' },
+          { name: 'Espresso Mascarpone Tart', price: '$8.50', desc: 'Dark chocolate sablé crust with Kaukab cold-brew ganache & cocoa nibs' },
+          { name: 'Warm Medjool Date Scone', price: '$6.50', desc: 'Served with whipped cinnamon labneh & wildflower honey' }
         ]
       }
     ],
     gallery: [
-      ROAST_BEHANCE_01,
-      ROAST_BEHANCE_02,
-      ROAST_BEHANCE_03,
-      ROAST_BEHANCE_04,
-      ROAST_BEHANCE_05,
-      ROAST_BEHANCE_06,
-      ROAST_BEHANCE_07,
-      ROAST_BEHANCE_08,
-      ROAST_BEHANCE_09,
-      ROAST_BEHANCE_10,
-      ROAST_BEHANCE_11,
-      ROAST_BEHANCE_12
+      VINYL_MUSIC_IMAGE,
+      EDITORIAL_POSTER_IMAGE,
+      BETTER_HUMANS_IMAGE,
+      QUIETER_TOMORROW_IMAGE
     ]
   }
 ];
@@ -523,8 +494,8 @@ export const DESIGNER_MANIFESTO = {
     }
   ],
   recognition: [
-    { year: '2026', award: 'Pentawards Shortlist · Luxury Packaging', project: 'Riwaq Architectural Fragrance Flacons & Unboxing' },
-    { year: '2024–2026', award: 'Principal Brand & Packaging Atelier', project: 'Riwaq Fragrances, Lumera Candles & Roast & Rhythm' },
+    { year: '2026', award: 'Pentawards Shortlist · Luxury Packaging', project: 'Qamar Al-Layl Celestial Flacons & Unboxing' },
+    { year: '2024–2026', award: 'Principal Brand & Packaging Atelier', project: 'Qamar Al-Layl, Solis Botanica & Kaukab Roastery' },
     { year: '2025', award: 'Behance Featured Brand Identity Showcase', project: 'behance.net/tumaneen-atelier' },
     { year: '2024', award: 'BFA Communication Design (Distinction)', project: 'Bilingual Typography, Packaging Architecture & Kinetic Identity' }
   ],
